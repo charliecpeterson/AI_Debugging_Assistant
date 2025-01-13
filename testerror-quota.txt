@@ -1,0 +1,11 @@
+[test@n6444 ~]$ rstudio &
+[1] 265644
+[test@n6444 ~]$ TTY detected. Printing informational message about logging co                                   nfiguration. Logging configuration loaded from '/etc/rstudio/logging.conf'. Logg                                   ing to '/u/home/y/test/.local/share/rstudio/log/rdesktop.log'.
+[265644:265644:20241102,151058.838765:ERROR filesystem_posix.cc:62] mkdir /u/hom                                   e/y/test/.r/crashpad_database/new: Disk quota exceeded (122)
+2024-11-02T22:10:58.838879Z [rdesktop] ERROR system error 2 (No such file or dir                                   ectory); OCCURRED AT rstudio::core::Error rstudio::core::crash_handler::initiali                                   ze(rstudio::core::crash_handler::ProgramMode) src/cpp/core/CrashHandler.cpp:322;                                    LOGGED FROM: int main(int, char**) src/cpp/desktop/DesktopMain.cpp:535
+X11 connection rejected because of wrong authentication.
+qt.qpa.xcb: could not connect to display localhost:10.0
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it                                    was found.
+This application failed to start because no Qt platform plugin could be initiali                                   zed. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen,                                    vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
